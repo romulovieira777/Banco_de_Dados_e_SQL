@@ -1,6 +1,6 @@
 # Banco de Dados e SQL
 ### Curso Completo de Banco de Dados e SQL, sem Mistérios da Udmey.
-#### :computer: Temas abordados durante o curso foram::boom:
+#### :computer: Temas abordados durante o curso de Mysql foram::boom:
 - Criação da Máquina Virtual.
 - Instalação dos Programas, MySql, Notpad++, BrModelo e UML.
 - Modelagem do Banco de Dados, Conceitual, Lógia e Física.
