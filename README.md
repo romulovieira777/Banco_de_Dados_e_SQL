@@ -11,3 +11,8 @@
 - Desc (Vendo a Estrutura de uma Tabela).
 - Tipagem dos Dados.
 - Insert Into (Inserindo Dados em uma Tabela).
+- Select (Selecionando Dados de uma Tabela).
+- Alias (Nomeando uma Coluna).
+- Where (Fitrando Dados em uma Tabela).
+- Like (Fitrando por Aproximação).
+- % (Caracter Coringa).
