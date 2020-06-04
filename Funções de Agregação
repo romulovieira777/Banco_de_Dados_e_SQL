@@ -1,0 +1,7 @@
+/* Funções de Agregação */
+
+SELECT COUNT(*) AS Quantidade_de_Registros FROM CLIENTE;
+
+/* Operador Group By */
+SELECT SEXO, COUNT(*) FROM CLIENTE GROUP BY SEXO;
+
