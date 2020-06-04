@@ -16,3 +16,5 @@
 - Where (Fitrando Dados em uma Tabela).
 - Like (Fitrando por Aproximação).
 - % (Caracter Coringa).
+- AND e OR (Operadores Lógicos).
+- Funções de Agregação
