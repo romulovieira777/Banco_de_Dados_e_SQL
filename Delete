@@ -1,0 +1,11 @@
+/* Deletando Dados de uma Tabela */
+DELETE FROM CLIENTE WHERE NOME = 'ANA';
+
+/* Excluindo uma Tabela */
+DELETE FROM CLIENTE;
+
+/* Inserindo Registro em uma Tabela */
+INSERT INTO CLIENTE VALUES ('CARLA', 'F', 'C.LOPES@UOL.COM', 45638854, '4575-0048', 'RUA COPPER LEAF - WILLIAMSBURG - KITCHENER');
+
+/* Deletando Dados de uma Tabela */
+DELETE FROM CLIENTE WHERE NOME = 'CARLA' AND EMAIL = 'LILIAN@HOTMAIL.COM';
