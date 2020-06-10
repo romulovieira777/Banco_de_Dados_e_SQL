@@ -1,0 +1,16 @@
+/* Primeira Forma Normal para Modelagem */
+
+/* Primeira Regra da Forma Normal
+
+1 - Todo campo vetorizado se tornará outra tabela
+
+[amarelo, azul, laranja, verde] -> cores
+[KA, fiesta, uno, civic] -> Carros
+
+2 - Todo campo multivalorado se tornará outra tabela.
+Quando o campo for divisível.
+
+3 - Toda tabela necessita de pelo menos um campo que identifique todo o registro como sendo único.
+isso é o que chamamos de chave primaria ou primary key.
+
+*/
