@@ -2,7 +2,7 @@
 ### Curso Completo de Banco de Dados e SQL, sem Mistérios da Udmey.
 #### :computer: Temas abordados durante o curso de Mysql foram::boom:
 - Criação da Máquina Virtual.
-- Instalação dos Programas, MySql, Notpad++, BrModelo e UML.
+- Instalação dos Programas, MySql, Notpad++, BrModelo, sublime e StarUML.
 - Modelagem do Banco de Dados, Conceitual, Lógia e Física.
 - Create DataBase (Criando um Banco de Dados).
 - Create Table (Criando Tabelas).
@@ -22,3 +22,4 @@
 - Update (Atualizar Dados de uma Tabela).
 - Delete (Deletado Dados de uma Tabela).
 - Joins (Junção entre Tabelas).
+- Programando no Mysql.
