@@ -1,0 +1,81 @@
+/* Alterando Tabelas */
+
+CREATE TABLE TABELA (
+	COLUNA1 VARCHAR(30),
+	COLUNA2 VARCHAR(30),
+	COLUNA3 VARCHAR(30)
+);
+
+
+/* Adicionando uma PK */
+
+ALTER TABLE
+	TABELA
+ADD
+	PRIMARY KEY (COLUNA1);
+
+
+/* Adicionando Coluna sem Posição. Última Posição */
+
+ALTER TABLE
+	TABELA
+ADD
+	COLUNA4 VARCHAR(30);
+	
+	
+/* Adicionando uma Coluna com Posição */
+
+ALTER TABLE
+	TABELA
+ADD
+	COLUMN COLUNA5 VARCHAR(30) NOT NULL UNIQUE
+AFTER
+	COLUNA4;
+
+
+/* Adicionando uma Coluna na Primeira Posição */
+ALTER TABLE 
+	TABELA
+ADD COLUMN 
+	COLUNA0 FLOAT(10,2) NOT NULL
+FIRST;
+
+
+/* Modificando o Tipo de um Campo */
+
+ALTER TABLE
+	TABELA
+MODIFY
+	COLUNA2 DATE NOT NULL;
+	
+	
+/* Renomeando o Nome da Tabela */
+
+ALTER TABLE
+	TABELA
+RENAME
+	PESSOA;
+	
+	
+/* Criando uma Tabela */
+
+CREATE TABLE TIME (
+	IDTIME INT PRIMARY KEY AUTO_INCREMENT,
+	TIME VARCHAR(30),
+	ID_PESSOA VARCHAR(30)
+);
+
+
+/* Adicionando uma Foreign Key */
+
+ALTER TABLE
+	TIME
+ADD
+	FOREIGN KEY (ID_PESSOA)
+REFERENCES
+	PESSOA (COLUNA1);
+
+
+/* Verificar as Chaves Criadas */
+
+SHOW CREATE TABLE TIME;
