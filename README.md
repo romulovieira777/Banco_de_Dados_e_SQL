@@ -23,3 +23,6 @@
 - Delete (Deletado Dados de uma Tabela).
 - Joins (Junção entre Tabelas).
 - Programando no Mysql.
+- Subconjunto do Conjunto.
+- Dicionário de Dados.
+- Triggers.
