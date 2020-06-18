@@ -1,0 +1,69 @@
+/* Vendedor que Vendeu Menos em Março e o seu nome */
+
+SELECT
+	MARCO,
+	NOME
+FROM
+	VENDEDORES
+WHERE
+	MARCO = (
+		SELECT
+			MIN(MARCO)
+		FROM
+			VENDEDORES);
+
+
+/* Nome e o Valor que Vendeu Mais em Março */
+SELECT
+	MARCO,
+	NOME
+FROM
+	VENDEDORES
+WHERE
+	MARCO = (
+		SELECT
+			MAX(MARCO)
+		FROM
+			VENDEDORES);
+
+
+/* Quem Vendeu Mais que i Valor Médio de Fevereiro */
+
+SELECT
+	NOME,
+	FEVEREIRO
+FROM
+	VENDEDORES
+WHERE
+	FEVEREIRO > (
+		SELECT
+			AVG(FEVEREIRO)
+		FROM
+			VENDEDORES);
+			
+
+/* Operações em Linhas */
+
+SELECT
+	NOME,
+	JANEIRO,
+	FEVEREIRO,
+	MARCO,
+	(JANEIRO + FEVEREIRO + MARCO) AS 'TOTAL',
+	TRUNCATE((JANEIRO + FEVEREIRO + MARCO) / 3, 2) AS 'MÉDIA'
+FROM
+	VENDEDORES;
+	
+
+/* Aplicando uma Porcentagem */
+
+SELECT
+	NOME,
+	JANEIRO,
+	FEVEREIRO,
+	MARCO,
+	(JANEIRO + FEVEREIRO + MARCO) AS 'TOTAL',
+	(JANEIRO + FEVEREIRO + MARCO) * .25 AS 'DESCONTO',
+	TRUNCATE((JANEIRO + FEVEREIRO + MARCO) / 3, 2) AS 'MÉDIA'
+FROM
+	VENDEDORES;
