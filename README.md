@@ -26,3 +26,11 @@
 - Subconjunto do Conjunto.
 - Dicionário de Dados.
 - Triggers.
+#### :computer: Temas abordados durante o curso de SQL Server foram::boom:
+- Create DataBase (Criando um Banco de Dados).
+- Create Table (Criando Tabelas).
+- Use Database (Escolhendo um Banco de Dados).
+- Particionando um Banco de Dados.
+- Constraints (Restrições).
+- Insert Into (Inserindo Dados em Tabelas).
+- Select (Consulta Simples nas Tabelas).
