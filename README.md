@@ -34,3 +34,6 @@
 - Constraints (Restrições).
 - Insert Into (Inserindo Dados em Tabelas).
 - Select (Consulta Simples nas Tabelas).
+- Datas.
+- Funções.
+- Triggers.
