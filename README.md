@@ -37,3 +37,5 @@
 - Datas.
 - Funções.
 - Triggers.
+- Procedures.
+- Introdução à TSQL.
