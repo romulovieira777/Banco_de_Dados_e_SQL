@@ -39,3 +39,4 @@
 - Triggers.
 - Procedures.
 - Introdução à TSQL.
+#### :computer: Temas abordados durante o curso de Postgre foram::boom:
