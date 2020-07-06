@@ -40,3 +40,6 @@
 - Procedures.
 - Introdução à TSQL.
 #### :computer: Temas abordados durante o curso de Postgre foram::boom:
+- Criando um Banco de Dados.
+- Criando Tabelas.
+- Inserindo Dados na Tabela.
