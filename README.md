@@ -39,3 +39,6 @@
 - Triggers.
 - Procedures.
 - Introdução à TSQL.
+
+Link para o curso: 
+[Udemy](https://www.udemy.com/course/bancos-de-dados-relacionais-basico-avancado/)
